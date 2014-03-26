@@ -1,0 +1,4 @@
+NAME tapelab WINDOWAPI
+DESCRIPTION 'Tape Lab 1996 by G.Iachello'
+STACKSIZE 0x20000
+

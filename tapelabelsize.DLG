@@ -1,0 +1,21 @@
+/*
+ * Resource file created by dlgedit version 0.0
+ * Giovanni Iachello 1995
+ * D:\emx\tapelab\tapelabelsize.DLG compiled on Thu Aug 03 16:22:00 1995
+ */
+DLGTEMPLATE DLG_SIZE 
+{
+	DIALOG "Tape Label Size", DLG_SIZE , 10, 10, 180, 140,
+		WS_VISIBLE, FCF_TITLEBAR | FCF_SYSMENU | FCF_DLGBORDER 
+	{
+		AUTORADIOBUTTON "TDK Reduced (111x97mm)", DSIZE_RB_TDK, 9, 73, 99, 10, WS_VISIBLE 
+		VALUESET "", DSIZE_VS_FLAPS, 120, 85, 51, 13, WS_VISIBLE 
+		TEXT "Flaps Number", -1, 119, 106, 50, 13, WS_VISIBLE | SS_TEXT 
+		GROUPBOX "", -1, 5, 23, 110, 86, WS_VISIBLE | SS_GROUPBOX 
+		AUTORADIOBUTTON "Normal (111x165mm)", DSIZE_RB_NORMAL, 9, 90, 100, 11, WS_VISIBLE 
+		TEXT "Label Size", -1, 4, 108, 63, 11, WS_VISIBLE | SS_TEXT 
+		PUSHBUTTON "~Cancel", DID_CANCEL, 111, 3, 34, 16, WS_VISIBLE | BS_PUSHBUTTON 
+		PUSHBUTTON "~OK", DID_OK, 11, 3, 34, 16, WS_VISIBLE | BS_PUSHBUTTON 
+
+	}
+}
